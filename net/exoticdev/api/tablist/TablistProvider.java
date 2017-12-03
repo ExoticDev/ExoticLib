@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
-public abstract class TablistProvider extends Tablist {
+public abstract class TablistProvider {
 
     private Plugin plugin;
     private Tablist tablist;
