@@ -16,9 +16,7 @@ public abstract class TablistProvider {
     private Map<UUID, BukkitTask> tasks = new HashMap<>();
 
     public TablistProvider(Plugin plugin) {
-        Tablist tablist = new Tablist();
-
-        this.tablist = tablist;
+        this.tablist = new Tablist();
         this.plugin = plugin;
     }
 
